@@ -1,0 +1,90 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:04<00:00, 1908.59 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:01<00:00, 2096.03 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Epoch [1/1000], Train Loss: 2.1060, Val Loss: 1.8603, Val Acc: 36.44%, Test Major Acc: 53.62%, Test Mod Acc: 1.90%, Test Rare Acc: 0.00%,
+Epoch [2/1000], Train Loss: 1.8580, Val Loss: 1.8005, Val Acc: 32.22%, Test Major Acc: 55.81%, Test Mod Acc: 0.00%, Test Rare Acc: 0.00%,
+Epoch [3/1000], Train Loss: 1.7891, Val Loss: 1.8683, Val Acc: 35.44%, Test Major Acc: 53.52%, Test Mod Acc: 3.33%, Test Rare Acc: 0.00%,
+Epoch [4/1000], Train Loss: 1.7564, Val Loss: 1.7327, Val Acc: 39.89%, Test Major Acc: 55.62%, Test Mod Acc: 14.00%, Test Rare Acc: 0.00%,
+Epoch [5/1000], Train Loss: 1.6944, Val Loss: 1.6418, Val Acc: 40.89%, Test Major Acc: 61.14%, Test Mod Acc: 9.05%, Test Rare Acc: 0.00%,
+Epoch [6/1000], Train Loss: 1.6117, Val Loss: 1.6259, Val Acc: 46.22%, Test Major Acc: 66.48%, Test Mod Acc: 17.71%, Test Rare Acc: 0.00%,
+Epoch [7/1000], Train Loss: 1.5827, Val Loss: 1.4883, Val Acc: 49.56%, Test Major Acc: 65.24%, Test Mod Acc: 36.67%, Test Rare Acc: 0.00%,
+Epoch [8/1000], Train Loss: 1.5122, Val Loss: 1.4198, Val Acc: 51.33%, Test Major Acc: 75.05%, Test Mod Acc: 20.48%, Test Rare Acc: 0.00%,
+Epoch [9/1000], Train Loss: 1.4470, Val Loss: 1.2937, Val Acc: 57.11%, Test Major Acc: 75.71%, Test Mod Acc: 32.76%, Test Rare Acc: 1.43%,
+Epoch [10/1000], Train Loss: 1.3929, Val Loss: 1.5078, Val Acc: 52.33%, Test Major Acc: 68.76%, Test Mod Acc: 27.71%, Test Rare Acc: 2.10%,
+Epoch [11/1000], Train Loss: 1.3597, Val Loss: 1.3322, Val Acc: 56.00%, Test Major Acc: 77.62%, Test Mod Acc: 28.48%, Test Rare Acc: 0.67%,
+Epoch [12/1000], Train Loss: 1.3437, Val Loss: 1.1918, Val Acc: 60.89%, Test Major Acc: 83.90%, Test Mod Acc: 23.05%, Test Rare Acc: 0.67%,
+Epoch [13/1000], Train Loss: 1.2961, Val Loss: 1.2616, Val Acc: 58.00%, Test Major Acc: 78.76%, Test Mod Acc: 29.05%, Test Rare Acc: 0.48%,
+Epoch [14/1000], Train Loss: 1.2504, Val Loss: 1.1478, Val Acc: 62.33%, Test Major Acc: 83.33%, Test Mod Acc: 35.62%, Test Rare Acc: 0.48%,
+Epoch [15/1000], Train Loss: 1.2064, Val Loss: 1.1915, Val Acc: 60.11%, Test Major Acc: 74.86%, Test Mod Acc: 43.81%, Test Rare Acc: 3.14%,
+Epoch [16/1000], Train Loss: 1.1996, Val Loss: 1.1501, Val Acc: 62.11%, Test Major Acc: 77.90%, Test Mod Acc: 40.00%, Test Rare Acc: 6.38%,
+Epoch [17/1000], Train Loss: 1.1625, Val Loss: 1.1396, Val Acc: 63.89%, Test Major Acc: 78.19%, Test Mod Acc: 44.10%, Test Rare Acc: 4.86%,
+Epoch [18/1000], Train Loss: 1.1055, Val Loss: 1.1662, Val Acc: 63.44%, Test Major Acc: 78.57%, Test Mod Acc: 37.33%, Test Rare Acc: 28.19%,
+Epoch [19/1000], Train Loss: 1.0762, Val Loss: 1.5338, Val Acc: 52.11%, Test Major Acc: 76.10%, Test Mod Acc: 26.10%, Test Rare Acc: 4.48%,
+Epoch [20/1000], Train Loss: 1.0729, Val Loss: 1.0765, Val Acc: 66.78%, Test Major Acc: 84.67%, Test Mod Acc: 44.48%, Test Rare Acc: 4.10%,
+Epoch [21/1000], Train Loss: 1.0075, Val Loss: 1.2077, Val Acc: 60.22%, Test Major Acc: 72.19%, Test Mod Acc: 35.14%, Test Rare Acc: 25.81%,
+Epoch [22/1000], Train Loss: 0.9989, Val Loss: 1.0314, Val Acc: 67.44%, Test Major Acc: 86.29%, Test Mod Acc: 29.62%, Test Rare Acc: 10.67%,
+Epoch [23/1000], Train Loss: 0.9722, Val Loss: 1.0114, Val Acc: 68.11%, Test Major Acc: 84.86%, Test Mod Acc: 41.71%, Test Rare Acc: 17.24%,
+Epoch [24/1000], Train Loss: 0.9906, Val Loss: 0.9254, Val Acc: 70.33%, Test Major Acc: 87.62%, Test Mod Acc: 49.81%, Test Rare Acc: 13.71%,
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py", line 251, in <module>
+    for images, labels in train_loader:
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py", line 157, in __getitem__
+    img = self.transform(img_)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 1280, in forward
+    img = F.adjust_hue(img, hue_factor)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 953, in adjust_hue
+    return F_pil.adjust_hue(img, hue_factor)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/_functional_pil.py", line 109, in adjust_hue
+    h, s, v = img.convert("HSV").split()
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/PIL/Image.py", line 1068, in convert
+    im = self.im.convert(mode, dither)

@@ -1,0 +1,90 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:05<00:00, 1885.01 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1884.87 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Epoch [1/50], Train Loss: 2.0688, Val Loss: 1.9171, Val Acc: 29.56%, Test Major Acc: 46.57%, Test Mod Acc: 0.00%, Test Rare Acc: 0.00%,
+Epoch [2/50], Train Loss: 1.8663, Val Loss: 1.7744, Val Acc: 38.56%, Test Major Acc: 59.05%, Test Mod Acc: 4.19%, Test Rare Acc: 0.00%,
+Epoch [3/50], Train Loss: 1.7787, Val Loss: 1.8083, Val Acc: 32.78%, Test Major Acc: 40.57%, Test Mod Acc: 18.10%, Test Rare Acc: 0.00%,
+Epoch [4/50], Train Loss: 1.7301, Val Loss: 1.8321, Val Acc: 33.33%, Test Major Acc: 43.81%, Test Mod Acc: 16.38%, Test Rare Acc: 0.00%,
+Epoch [5/50], Train Loss: 1.6332, Val Loss: 1.5131, Val Acc: 47.11%, Test Major Acc: 62.67%, Test Mod Acc: 24.67%, Test Rare Acc: 0.00%,
+Epoch [6/50], Train Loss: 1.5439, Val Loss: 1.5524, Val Acc: 47.89%, Test Major Acc: 55.52%, Test Mod Acc: 42.76%, Test Rare Acc: 0.00%,
+Epoch [7/50], Train Loss: 1.4995, Val Loss: 1.3614, Val Acc: 53.89%, Test Major Acc: 71.24%, Test Mod Acc: 36.86%, Test Rare Acc: 0.00%,
+Epoch [8/50], Train Loss: 1.4448, Val Loss: 1.3261, Val Acc: 53.22%, Test Major Acc: 70.57%, Test Mod Acc: 33.24%, Test Rare Acc: 0.00%,
+Epoch [9/50], Train Loss: 1.3985, Val Loss: 1.1616, Val Acc: 62.56%, Test Major Acc: 72.76%, Test Mod Acc: 44.67%, Test Rare Acc: 0.00%,
+Epoch [10/50], Train Loss: 1.3569, Val Loss: 1.1340, Val Acc: 64.56%, Test Major Acc: 79.71%, Test Mod Acc: 35.81%, Test Rare Acc: 1.43%,
+Epoch [11/50], Train Loss: 1.3158, Val Loss: 1.3184, Val Acc: 56.33%, Test Major Acc: 76.38%, Test Mod Acc: 26.38%, Test Rare Acc: 0.76%,
+Epoch [12/50], Train Loss: 1.2702, Val Loss: 0.9702, Val Acc: 68.33%, Test Major Acc: 81.43%, Test Mod Acc: 42.19%, Test Rare Acc: 0.67%,
+Epoch [13/50], Train Loss: 1.2376, Val Loss: 1.1456, Val Acc: 62.89%, Test Major Acc: 74.10%, Test Mod Acc: 40.19%, Test Rare Acc: 2.48%,
+Epoch [14/50], Train Loss: 1.2121, Val Loss: 1.0717, Val Acc: 66.78%, Test Major Acc: 80.29%, Test Mod Acc: 39.24%, Test Rare Acc: 4.00%,
+Epoch [15/50], Train Loss: 1.1766, Val Loss: 1.0739, Val Acc: 66.00%, Test Major Acc: 77.43%, Test Mod Acc: 42.00%, Test Rare Acc: 8.38%,
+Epoch [16/50], Train Loss: 1.1656, Val Loss: 0.8986, Val Acc: 71.00%, Test Major Acc: 85.90%, Test Mod Acc: 44.48%, Test Rare Acc: 1.24%,
+Epoch [17/50], Train Loss: 1.1166, Val Loss: 0.9558, Val Acc: 70.78%, Test Major Acc: 83.24%, Test Mod Acc: 49.05%, Test Rare Acc: 3.24%,
+Epoch [18/50], Train Loss: 1.1093, Val Loss: 0.9629, Val Acc: 68.89%, Test Major Acc: 84.19%, Test Mod Acc: 38.00%, Test Rare Acc: 12.10%,
+Epoch [19/50], Train Loss: 1.0914, Val Loss: 1.0114, Val Acc: 68.22%, Test Major Acc: 75.62%, Test Mod Acc: 54.10%, Test Rare Acc: 6.10%,
+Epoch [20/50], Train Loss: 1.0615, Val Loss: 1.1500, Val Acc: 65.44%, Test Major Acc: 73.33%, Test Mod Acc: 42.19%, Test Rare Acc: 6.19%,
+Epoch [21/50], Train Loss: 1.0497, Val Loss: 0.8111, Val Acc: 74.33%, Test Major Acc: 85.33%, Test Mod Acc: 45.05%, Test Rare Acc: 17.81%,
+Epoch [22/50], Train Loss: 1.0107, Val Loss: 0.9081, Val Acc: 71.11%, Test Major Acc: 76.86%, Test Mod Acc: 52.10%, Test Rare Acc: 9.71%,
+Epoch [23/50], Train Loss: 0.9889, Val Loss: 0.7960, Val Acc: 75.44%, Test Major Acc: 86.00%, Test Mod Acc: 39.43%, Test Rare Acc: 14.67%,
+Epoch [24/50], Train Loss: 0.9896, Val Loss: 0.8661, Val Acc: 71.67%, Test Major Acc: 85.81%, Test Mod Acc: 38.19%, Test Rare Acc: 22.29%,
+Epoch [25/50], Train Loss: 0.9634, Val Loss: 0.7661, Val Acc: 75.11%, Test Major Acc: 83.90%, Test Mod Acc: 51.33%, Test Rare Acc: 35.52%,
+Epoch [26/50], Train Loss: 0.9513, Val Loss: 0.8805, Val Acc: 70.44%, Test Major Acc: 86.57%, Test Mod Acc: 34.19%, Test Rare Acc: 11.81%,
+Epoch [27/50], Train Loss: 0.9401, Val Loss: 0.8661, Val Acc: 73.44%, Test Major Acc: 84.76%, Test Mod Acc: 46.29%, Test Rare Acc: 27.14%,
+Epoch [28/50], Train Loss: 0.9203, Val Loss: 0.8514, Val Acc: 71.78%, Test Major Acc: 87.14%, Test Mod Acc: 38.19%, Test Rare Acc: 24.86%,
+Epoch [29/50], Train Loss: 0.8732, Val Loss: 0.8403, Val Acc: 73.44%, Test Major Acc: 80.48%, Test Mod Acc: 50.76%, Test Rare Acc: 27.24%,
+Epoch [30/50], Train Loss: 0.8749, Val Loss: 0.7909, Val Acc: 74.11%, Test Major Acc: 89.90%, Test Mod Acc: 37.43%, Test Rare Acc: 21.62%,
+Epoch [31/50], Train Loss: 0.8465, Val Loss: 0.7254, Val Acc: 76.56%, Test Major Acc: 86.76%, Test Mod Acc: 43.62%, Test Rare Acc: 31.24%,
+Epoch [32/50], Train Loss: 0.8590, Val Loss: 0.6717, Val Acc: 78.22%, Test Major Acc: 88.29%, Test Mod Acc: 46.48%, Test Rare Acc: 34.67%,
+Epoch [33/50], Train Loss: 0.8076, Val Loss: 0.6746, Val Acc: 76.78%, Test Major Acc: 88.57%, Test Mod Acc: 47.90%, Test Rare Acc: 33.33%,
+Epoch [34/50], Train Loss: 0.8317, Val Loss: 0.6495, Val Acc: 78.56%, Test Major Acc: 88.48%, Test Mod Acc: 46.38%, Test Rare Acc: 23.14%,
+Epoch [35/50], Train Loss: 0.8028, Val Loss: 0.9614, Val Acc: 69.89%, Test Major Acc: 82.00%, Test Mod Acc: 33.24%, Test Rare Acc: 25.52%,
+Epoch [36/50], Train Loss: 0.8076, Val Loss: 0.8088, Val Acc: 73.33%, Test Major Acc: 84.76%, Test Mod Acc: 44.19%, Test Rare Acc: 47.43%,
+Epoch [37/50], Train Loss: 0.7546, Val Loss: 0.6156, Val Acc: 80.89%, Test Major Acc: 87.81%, Test Mod Acc: 54.48%, Test Rare Acc: 33.62%,
+Epoch [38/50], Train Loss: 0.7942, Val Loss: 0.6181, Val Acc: 80.33%, Test Major Acc: 85.14%, Test Mod Acc: 50.00%, Test Rare Acc: 46.48%,
+Epoch [39/50], Train Loss: 0.7397, Val Loss: 0.6170, Val Acc: 80.11%, Test Major Acc: 86.38%, Test Mod Acc: 53.24%, Test Rare Acc: 34.86%,
+Epoch [40/50], Train Loss: 0.7345, Val Loss: 0.6503, Val Acc: 79.56%, Test Major Acc: 82.19%, Test Mod Acc: 52.00%, Test Rare Acc: 47.71%,
+Epoch [41/50], Train Loss: 0.7052, Val Loss: 0.6786, Val Acc: 79.67%, Test Major Acc: 88.76%, Test Mod Acc: 49.52%, Test Rare Acc: 34.86%,
+Epoch [42/50], Train Loss: 0.7048, Val Loss: 0.6263, Val Acc: 80.11%, Test Major Acc: 90.76%, Test Mod Acc: 50.00%, Test Rare Acc: 37.43%,
+Epoch [43/50], Train Loss: 0.6978, Val Loss: 0.6418, Val Acc: 80.22%, Test Major Acc: 86.57%, Test Mod Acc: 51.24%, Test Rare Acc: 40.29%,
+Epoch [44/50], Train Loss: 0.6783, Val Loss: 0.6517, Val Acc: 80.11%, Test Major Acc: 87.52%, Test Mod Acc: 55.52%, Test Rare Acc: 29.05%,
+Epoch [45/50], Train Loss: 0.6952, Val Loss: 0.5698, Val Acc: 81.89%, Test Major Acc: 86.00%, Test Mod Acc: 52.48%, Test Rare Acc: 37.62%,
+Epoch [46/50], Train Loss: 0.6917, Val Loss: 0.5920, Val Acc: 80.44%, Test Major Acc: 90.10%, Test Mod Acc: 42.19%, Test Rare Acc: 38.00%,
+Epoch [47/50], Train Loss: 0.6649, Val Loss: 0.6255, Val Acc: 81.44%, Test Major Acc: 87.24%, Test Mod Acc: 53.81%, Test Rare Acc: 31.43%,
+Epoch [48/50], Train Loss: 0.6343, Val Loss: 0.5566, Val Acc: 82.33%, Test Major Acc: 86.86%, Test Mod Acc: 52.86%, Test Rare Acc: 55.05%,
+Epoch [49/50], Train Loss: 0.6487, Val Loss: 0.6310, Val Acc: 79.22%, Test Major Acc: 90.95%, Test Mod Acc: 44.95%, Test Rare Acc: 42.00%,
+Epoch [50/50], Train Loss: 0.6438, Val Loss: 0.6055, Val Acc: 80.22%, Test Major Acc: 86.76%, Test Mod Acc: 49.90%, Test Rare Acc: 58.29%,
+Finished Training

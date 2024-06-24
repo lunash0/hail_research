@@ -1,0 +1,27 @@
+2024-04-14 06:50:51,440 INFO    MainThread:295653 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-14 06:50:51,441 INFO    MainThread:295653 [wandb_setup.py:_flush():76] Configure stats pid to 295653
+2024-04-14 06:50:51,441 INFO    MainThread:295653 [wandb_setup.py:_flush():76] Loading settings from /home/hail09/.config/wandb/settings
+2024-04-14 06:50:51,441 INFO    MainThread:295653 [wandb_setup.py:_flush():76] Loading settings from /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/settings
+2024-04-14 06:50:51,441 INFO    MainThread:295653 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-14 06:50:51,441 INFO    MainThread:295653 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-14 06:50:51,441 INFO    MainThread:295653 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'download&check_dataset.py', 'program_abspath': '/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py', 'program': '/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py'}
+2024-04-14 06:50:51,441 INFO    MainThread:295653 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-14 06:50:51,441 INFO    MainThread:295653 [wandb_init.py:_log_setup():521] Logging user logs to /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240414_065051-qoz5hd1d/logs/debug.log
+2024-04-14 06:50:51,442 INFO    MainThread:295653 [wandb_init.py:_log_setup():522] Logging internal logs to /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240414_065051-qoz5hd1d/logs/debug-internal.log
+2024-04-14 06:50:51,442 INFO    MainThread:295653 [wandb_init.py:init():561] calling init triggers
+2024-04-14 06:50:51,442 INFO    MainThread:295653 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'id': 'resnet', 'lr': 0.01}
+2024-04-14 06:50:51,442 INFO    MainThread:295653 [wandb_init.py:init():611] starting backend
+2024-04-14 06:50:51,442 INFO    MainThread:295653 [wandb_init.py:init():615] setting up manager
+2024-04-14 06:50:51,452 INFO    MainThread:295653 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-14 06:50:51,454 INFO    MainThread:295653 [wandb_init.py:init():623] backend started and connected
+2024-04-14 06:50:51,475 INFO    MainThread:295653 [wandb_init.py:init():715] updated telemetry
+2024-04-14 06:50:51,476 INFO    MainThread:295653 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-14 06:50:52,032 INFO    MainThread:295653 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-14 06:50:52,184 INFO    MainThread:295653 [wandb_run.py:_on_init():2366] got version response 
+2024-04-14 06:50:52,185 INFO    MainThread:295653 [wandb_init.py:init():799] starting run threads in backend
+2024-04-14 06:50:58,406 INFO    MainThread:295653 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-14 06:50:58,406 INFO    MainThread:295653 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-14 06:50:58,407 INFO    MainThread:295653 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-14 06:50:58,407 INFO    MainThread:295653 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-14 06:50:58,408 INFO    MainThread:295653 [wandb_init.py:init():842] run started, returning control to user process

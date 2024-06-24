@@ -1,0 +1,104 @@
+2024-04-11 16:57:54,712 INFO    StreamThr :205293 [internal.py:wandb_internal():86] W&B internal server running at pid: 205293, started at: 2024-04-11 16:57:54.710956
+2024-04-11 16:57:54,717 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status
+2024-04-11 16:57:54,742 INFO    WriterThread:205293 [datastore.py:open_for_write():87] open: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/run-pdjbiw7c.wandb
+2024-04-11 16:57:54,743 DEBUG   SenderThread:205293 [sender.py:send():379] send: header
+2024-04-11 16:57:54,745 DEBUG   SenderThread:205293 [sender.py:send():379] send: run
+2024-04-11 16:57:55,263 INFO    SenderThread:205293 [dir_watcher.py:__init__():211] watching files in: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files
+2024-04-11 16:57:55,263 INFO    SenderThread:205293 [sender.py:_start_run_threads():1124] run started: pdjbiw7c with start time 1712854674.710098
+2024-04-11 16:57:55,305 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: check_version
+2024-04-11 16:57:55,307 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: check_version
+2024-04-11 16:57:55,466 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: run_start
+2024-04-11 16:57:55,504 DEBUG   HandlerThread:205293 [system_info.py:__init__():26] System info init
+2024-04-11 16:57:55,504 DEBUG   HandlerThread:205293 [system_info.py:__init__():41] System info init done
+2024-04-11 16:57:55,505 INFO    HandlerThread:205293 [system_monitor.py:start():194] Starting system monitor
+2024-04-11 16:57:55,506 INFO    SystemMonitor:205293 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-11 16:57:55,506 INFO    HandlerThread:205293 [system_monitor.py:probe():214] Collecting system info
+2024-04-11 16:57:55,508 INFO    SystemMonitor:205293 [interfaces.py:start():190] Started cpu monitoring
+2024-04-11 16:57:55,510 INFO    SystemMonitor:205293 [interfaces.py:start():190] Started disk monitoring
+2024-04-11 16:57:55,514 INFO    SystemMonitor:205293 [interfaces.py:start():190] Started gpu monitoring
+2024-04-11 16:57:55,517 INFO    SystemMonitor:205293 [interfaces.py:start():190] Started memory monitoring
+2024-04-11 16:57:55,521 INFO    SystemMonitor:205293 [interfaces.py:start():190] Started network monitoring
+2024-04-11 16:57:55,565 DEBUG   HandlerThread:205293 [system_info.py:probe():150] Probing system
+2024-04-11 16:57:55,574 DEBUG   HandlerThread:205293 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-11 16:57:55,575 DEBUG   HandlerThread:205293 [system_info.py:probe():198] Probing system done
+2024-04-11 16:57:55,575 DEBUG   HandlerThread:205293 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-101-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-04-11T16:57:55.565628', 'startedAt': '2024-04-11T16:57:54.680184', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py', 'codePathLocal': 'download&check_dataset.py', 'codePath': 'download&check_dataset.py', 'host': 'hail09', 'username': 'hail09', 'executable': '/home/hail09/anaconda3/envs/venv_ImagenNet10/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1681.090125, 'min': 1200.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1900.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1900.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1700.0, 'min': 1200.0, 'max': 3000.0}, {'current': 3000.0, 'min': 1200.0, 'max': 3000.0}, {'current': 3000.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 2200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1895.668, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}], 'disk': {'/': {'total': 97.87200164794922, 'used': 87.76675033569336}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 62.64051818847656}}
+2024-04-11 16:57:55,576 INFO    HandlerThread:205293 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-11 16:57:55,576 INFO    HandlerThread:205293 [system_monitor.py:probe():227] Publishing system info
+2024-04-11 16:57:55,576 DEBUG   HandlerThread:205293 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-11 16:57:56,274 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/conda-environment.yaml
+2024-04-11 16:58:01,266 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/conda-environment.yaml
+2024-04-11 16:58:01,516 DEBUG   HandlerThread:205293 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-11 16:58:01,550 INFO    HandlerThread:205293 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-11 16:58:01,586 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:01,587 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-11 16:58:01,589 DEBUG   SenderThread:205293 [sender.py:send():379] send: files
+2024-04-11 16:58:01,590 INFO    SenderThread:205293 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-11 16:58:02,252 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-11 16:58:02,253 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: python_packages
+2024-04-11 16:58:02,258 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:58:02,260 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:58:02,262 DEBUG   SenderThread:205293 [sender.py:send():379] send: telemetry
+2024-04-11 16:58:02,263 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:58:02,290 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/wandb-metadata.json
+2024-04-11 16:58:02,291 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/requirements.txt
+2024-04-11 16:58:02,548 INFO    wandb-upload_0:205293 [upload_job.py:push():131] Uploaded file /tmp/tmpphshxxjiwandb/mk6gfsps-wandb-metadata.json
+2024-04-11 16:58:05,473 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:10,298 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/output.log
+2024-04-11 16:58:10,502 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:12,300 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/output.log
+2024-04-11 16:58:14,302 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/output.log
+2024-04-11 16:58:15,626 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:16,304 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/output.log
+2024-04-11 16:58:17,254 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:58:17,256 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:58:17,277 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:58:18,306 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/output.log
+2024-04-11 16:58:19,308 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/output.log
+2024-04-11 16:58:21,500 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:26,507 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:27,316 INFO    Thread-16 :205293 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_165754-pdjbiw7c/files/config.yaml
+2024-04-11 16:58:31,754 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:32,254 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:58:32,255 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:58:32,295 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:58:37,508 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:42,509 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:47,254 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:58:47,256 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:58:47,296 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:58:48,487 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:53,488 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:58:55,525 DEBUG   SystemMonitor:205293 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-11 16:58:55,529 DEBUG   SenderThread:205293 [sender.py:send():379] send: stats
+2024-04-11 16:58:58,532 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:02,254 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:59:02,256 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:59:02,295 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:59:04,466 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:09,467 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:14,469 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:17,255 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:59:17,256 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:59:17,295 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:59:19,550 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:24,552 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:25,533 DEBUG   SenderThread:205293 [sender.py:send():379] send: stats
+2024-04-11 16:59:30,536 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:32,255 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:59:32,257 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:59:32,299 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:59:36,482 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:41,483 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:46,484 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:47,256 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:59:47,257 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:59:47,299 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:59:52,470 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:59:55,537 DEBUG   SenderThread:205293 [sender.py:send():379] send: stats
+2024-04-11 16:59:57,539 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:00:02,256 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:00:02,257 DEBUG   SenderThread:205293 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:00:02,299 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:00:02,549 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:00:07,550 DEBUG   HandlerThread:205293 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:00:07,574 INFO    MainThread:205293 [internal.py:handle_exit():76] Internal process exited

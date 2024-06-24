@@ -1,0 +1,59 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:04<00:00, 2303.64 examples/s]
+Generating validation split: 100%|██████████| 3925/3925 [00:01<00:00, 2859.80 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Epoch [1/50], Train Loss: 1.5047, Val Loss: 1.5318, Val Acc: 54.78%, Test Major Acc: 66.29%, Test Mod Acc: 37.52%, Test Rare Acc: 1.62%,
+Epoch [2/50], Train Loss: 1.2191, Val Loss: 1.3338, Val Acc: 56.89%, Test Major Acc: 76.10%, Test Mod Acc: 37.43%, Test Rare Acc: 0.29%,
+Epoch [3/50], Train Loss: 1.0637, Val Loss: 2.3669, Val Acc: 40.11%, Test Major Acc: 50.00%, Test Mod Acc: 16.76%, Test Rare Acc: 5.24%,
+Epoch [4/50], Train Loss: 0.9173, Val Loss: 1.0787, Val Acc: 63.44%, Test Major Acc: 81.90%, Test Mod Acc: 38.95%, Test Rare Acc: 10.48%,
+Epoch [5/50], Train Loss: 0.8418, Val Loss: 0.9399, Val Acc: 68.33%, Test Major Acc: 83.52%, Test Mod Acc: 48.86%, Test Rare Acc: 28.86%,
+Epoch [6/50], Train Loss: 0.7462, Val Loss: 0.9548, Val Acc: 69.44%, Test Major Acc: 90.19%, Test Mod Acc: 40.67%, Test Rare Acc: 18.10%,
+Epoch [7/50], Train Loss: 0.7052, Val Loss: 1.0818, Val Acc: 67.78%, Test Major Acc: 69.43%, Test Mod Acc: 46.10%, Test Rare Acc: 22.95%,
+Epoch [8/50], Train Loss: 0.6098, Val Loss: 0.9792, Val Acc: 69.33%, Test Major Acc: 81.33%, Test Mod Acc: 44.86%, Test Rare Acc: 38.48%,
+Epoch [9/50], Train Loss: 0.5909, Val Loss: 0.8676, Val Acc: 72.78%, Test Major Acc: 78.95%, Test Mod Acc: 53.24%, Test Rare Acc: 31.33%,
+Epoch [10/50], Train Loss: 0.5079, Val Loss: 0.9026, Val Acc: 72.44%, Test Major Acc: 88.67%, Test Mod Acc: 47.05%, Test Rare Acc: 36.48%,
+Epoch [11/50], Train Loss: 0.4754, Val Loss: 0.8008, Val Acc: 74.33%, Test Major Acc: 88.38%, Test Mod Acc: 52.86%, Test Rare Acc: 23.90%,
+Epoch [12/50], Train Loss: 0.3843, Val Loss: 0.8535, Val Acc: 73.89%, Test Major Acc: 82.57%, Test Mod Acc: 53.14%, Test Rare Acc: 50.67%,
+Epoch [13/50], Train Loss: 0.3725, Val Loss: 0.8670, Val Acc: 73.89%, Test Major Acc: 81.33%, Test Mod Acc: 57.05%, Test Rare Acc: 36.19%,
+Epoch [14/50], Train Loss: 0.3213, Val Loss: 1.2067, Val Acc: 68.44%, Test Major Acc: 84.76%, Test Mod Acc: 28.76%, Test Rare Acc: 45.43%,
+Epoch [15/50], Train Loss: 0.2788, Val Loss: 0.8017, Val Acc: 77.67%, Test Major Acc: 88.95%, Test Mod Acc: 44.86%, Test Rare Acc: 34.86%,
+Epoch [16/50], Train Loss: 0.2151, Val Loss: 1.0340, Val Acc: 73.00%, Test Major Acc: 78.00%, Test Mod Acc: 59.52%, Test Rare Acc: 30.67%,
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py", line 276, in <module>
+    test_rare_acc = test(resnet_model, test_rare_classes, device)
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py", line 224, in test
+    correct += (predicted == labels).sum().item()

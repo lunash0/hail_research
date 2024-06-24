@@ -1,0 +1,189 @@
+2024-04-11 17:12:41,456 INFO    StreamThr :206316 [internal.py:wandb_internal():86] W&B internal server running at pid: 206316, started at: 2024-04-11 17:12:41.453179
+2024-04-11 17:12:41,460 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status
+2024-04-11 17:12:41,481 INFO    WriterThread:206316 [datastore.py:open_for_write():87] open: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/run-dq7pom2r.wandb
+2024-04-11 17:12:41,483 DEBUG   SenderThread:206316 [sender.py:send():379] send: header
+2024-04-11 17:12:41,484 DEBUG   SenderThread:206316 [sender.py:send():379] send: run
+2024-04-11 17:12:41,999 INFO    SenderThread:206316 [dir_watcher.py:__init__():211] watching files in: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files
+2024-04-11 17:12:41,999 INFO    SenderThread:206316 [sender.py:_start_run_threads():1124] run started: dq7pom2r with start time 1712855561.452873
+2024-04-11 17:12:42,040 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: check_version
+2024-04-11 17:12:42,042 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: check_version
+2024-04-11 17:12:42,201 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: run_start
+2024-04-11 17:12:42,241 DEBUG   HandlerThread:206316 [system_info.py:__init__():26] System info init
+2024-04-11 17:12:42,242 DEBUG   HandlerThread:206316 [system_info.py:__init__():41] System info init done
+2024-04-11 17:12:42,242 INFO    HandlerThread:206316 [system_monitor.py:start():194] Starting system monitor
+2024-04-11 17:12:42,243 INFO    SystemMonitor:206316 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-11 17:12:42,246 INFO    HandlerThread:206316 [system_monitor.py:probe():214] Collecting system info
+2024-04-11 17:12:42,246 INFO    SystemMonitor:206316 [interfaces.py:start():190] Started cpu monitoring
+2024-04-11 17:12:42,248 INFO    SystemMonitor:206316 [interfaces.py:start():190] Started disk monitoring
+2024-04-11 17:12:42,251 INFO    SystemMonitor:206316 [interfaces.py:start():190] Started gpu monitoring
+2024-04-11 17:12:42,253 INFO    SystemMonitor:206316 [interfaces.py:start():190] Started memory monitoring
+2024-04-11 17:12:42,256 INFO    SystemMonitor:206316 [interfaces.py:start():190] Started network monitoring
+2024-04-11 17:12:42,309 DEBUG   HandlerThread:206316 [system_info.py:probe():150] Probing system
+2024-04-11 17:12:42,318 DEBUG   HandlerThread:206316 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-11 17:12:42,319 DEBUG   HandlerThread:206316 [system_info.py:probe():198] Probing system done
+2024-04-11 17:12:42,319 DEBUG   HandlerThread:206316 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-101-generic-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-04-11T17:12:42.309490', 'startedAt': '2024-04-11T17:12:41.410320', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py', 'codePathLocal': 'download&check_dataset.py', 'codePath': 'download&check_dataset.py', 'host': 'hail09', 'username': 'hail09', 'executable': '/home/hail09/anaconda3/envs/venv_ImagenNet10/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1531.0253125, 'min': 1200.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 1900.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1900.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1900.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1527.443, 'min': 1200.0, 'max': 3000.0}, {'current': 1900.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}], 'disk': {'/': {'total': 97.87200164794922, 'used': 87.81871032714844}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 62.64051818847656}}
+2024-04-11 17:12:42,319 INFO    HandlerThread:206316 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-11 17:12:42,320 INFO    HandlerThread:206316 [system_monitor.py:probe():227] Publishing system info
+2024-04-11 17:12:42,320 DEBUG   HandlerThread:206316 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-11 17:12:43,009 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/conda-environment.yaml
+2024-04-11 17:12:48,002 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/conda-environment.yaml
+2024-04-11 17:12:48,204 DEBUG   HandlerThread:206316 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-11 17:12:48,218 INFO    HandlerThread:206316 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-11 17:12:48,230 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:12:48,231 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-11 17:12:48,233 DEBUG   SenderThread:206316 [sender.py:send():379] send: files
+2024-04-11 17:12:48,233 INFO    SenderThread:206316 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-11 17:12:48,952 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-11 17:12:48,953 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: python_packages
+2024-04-11 17:12:48,959 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:12:48,959 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:12:48,961 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:12:49,003 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/wandb-metadata.json
+2024-04-11 17:12:49,004 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/requirements.txt
+2024-04-11 17:12:49,109 INFO    wandb-upload_0:206316 [upload_job.py:push():131] Uploaded file /tmp/tmpv4vhlulewandb/ffz4jcad-wandb-metadata.json
+2024-04-11 17:12:49,175 DEBUG   SenderThread:206316 [sender.py:send():379] send: telemetry
+2024-04-11 17:12:53,177 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:12:56,010 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/output.log
+2024-04-11 17:12:58,012 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/output.log
+2024-04-11 17:12:58,292 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:00,015 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/output.log
+2024-04-11 17:13:02,017 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/output.log
+2024-04-11 17:13:03,575 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:03,954 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:13:03,956 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:13:03,972 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:13:04,019 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/output.log
+2024-04-11 17:13:06,021 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/output.log
+2024-04-11 17:13:09,161 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:14,177 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:15,030 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/config.yaml
+2024-04-11 17:13:18,955 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:13:18,956 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:13:18,995 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:13:20,163 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:25,164 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:30,166 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:33,954 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:13:33,955 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:13:33,995 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:13:35,220 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:40,222 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:42,256 DEBUG   SystemMonitor:206316 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-11 17:13:42,261 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats
+2024-04-11 17:13:45,263 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:48,954 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:13:48,956 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:13:48,995 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:13:50,307 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:13:55,309 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:00,310 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:03,955 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:14:03,957 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:14:03,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:14:06,210 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:11,211 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:12,264 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats
+2024-04-11 17:14:16,266 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:18,955 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:14:18,956 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:14:18,996 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:14:22,246 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:27,247 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:32,249 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:33,956 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:14:33,959 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:14:34,000 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:14:38,239 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:42,268 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats
+2024-04-11 17:14:43,271 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:44,124 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/output.log
+2024-04-11 17:14:48,406 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:48,956 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:14:48,957 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:14:48,964 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:14:54,266 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:14:59,268 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:03,956 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:15:03,957 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:15:03,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:15:05,235 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:10,237 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:12,272 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats
+2024-04-11 17:15:15,275 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:18,955 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:15:18,957 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:15:19,000 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:15:21,210 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:26,211 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:31,213 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:33,956 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:15:33,957 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:15:34,000 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:15:36,245 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:41,246 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:42,276 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats
+2024-04-11 17:15:46,279 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:48,956 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:15:48,957 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:15:48,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:15:52,209 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:15:57,211 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:02,212 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:03,956 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:16:03,958 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:16:03,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:16:07,230 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:12,231 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:12,280 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats
+2024-04-11 17:16:17,283 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:18,956 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:16:18,958 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:16:18,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:16:23,191 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:28,192 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:33,194 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:33,957 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:16:33,958 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:16:33,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:16:38,208 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:42,284 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats
+2024-04-11 17:16:43,287 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:48,288 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:48,957 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:16:48,958 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:16:48,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:16:54,163 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:16:59,164 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:03,957 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:17:03,959 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:17:03,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:17:04,201 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:09,203 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:12,289 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats
+2024-04-11 17:17:14,291 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:18,958 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:17:18,959 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:17:19,000 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:17:20,176 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:25,177 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:30,179 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:33,958 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:17:33,959 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:17:33,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:17:35,245 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:40,246 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:42,293 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats
+2024-04-11 17:17:45,296 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:48,958 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:17:48,960 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:17:48,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:17:51,212 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:17:56,213 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:18:01,215 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:18:03,958 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 17:18:03,960 DEBUG   SenderThread:206316 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 17:18:03,999 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 17:18:06,217 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:18:10,346 INFO    Thread-16 :206316 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_171241-dq7pom2r/files/output.log
+2024-04-11 17:18:11,585 DEBUG   HandlerThread:206316 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 17:18:12,298 DEBUG   SenderThread:206316 [sender.py:send():379] send: stats

@@ -1,0 +1,50 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:05<00:00, 1806.56 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1727.54 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py", line 145, in __getitem__
+    if img_.mode == 'L':

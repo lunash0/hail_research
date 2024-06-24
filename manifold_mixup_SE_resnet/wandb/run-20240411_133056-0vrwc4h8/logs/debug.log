@@ -1,0 +1,28 @@
+2024-04-11 13:30:56,360 INFO    MainThread:199237 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-11 13:30:56,361 INFO    MainThread:199237 [wandb_setup.py:_flush():76] Configure stats pid to 199237
+2024-04-11 13:30:56,361 INFO    MainThread:199237 [wandb_setup.py:_flush():76] Loading settings from /home/hail09/.config/wandb/settings
+2024-04-11 13:30:56,361 INFO    MainThread:199237 [wandb_setup.py:_flush():76] Loading settings from /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/settings
+2024-04-11 13:30:56,361 INFO    MainThread:199237 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-11 13:30:56,361 INFO    MainThread:199237 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-11 13:30:56,361 INFO    MainThread:199237 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'download&check_dataset.py', 'program_abspath': '/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py', 'program': '/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py'}
+2024-04-11 13:30:56,361 INFO    MainThread:199237 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-11 13:30:56,361 INFO    MainThread:199237 [wandb_init.py:_log_setup():521] Logging user logs to /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_133056-0vrwc4h8/logs/debug.log
+2024-04-11 13:30:56,362 INFO    MainThread:199237 [wandb_init.py:_log_setup():522] Logging internal logs to /home/hail09/Documents/hail_moon/ImageNet10_experiments/wandb/run-20240411_133056-0vrwc4h8/logs/debug-internal.log
+2024-04-11 13:30:56,362 INFO    MainThread:199237 [wandb_init.py:init():561] calling init triggers
+2024-04-11 13:30:56,362 INFO    MainThread:199237 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-04-11 13:30:56,362 INFO    MainThread:199237 [wandb_init.py:init():611] starting backend
+2024-04-11 13:30:56,362 INFO    MainThread:199237 [wandb_init.py:init():615] setting up manager
+2024-04-11 13:30:56,372 INFO    MainThread:199237 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-11 13:30:56,374 INFO    MainThread:199237 [wandb_init.py:init():623] backend started and connected
+2024-04-11 13:30:56,394 INFO    MainThread:199237 [wandb_init.py:init():715] updated telemetry
+2024-04-11 13:30:56,395 INFO    MainThread:199237 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-11 13:30:56,810 ERROR   MainThread:199237 [wandb_init.py:init():774] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-04-11 13:30:56,968 ERROR   MainThread:199237 [wandb_init.py:init():1199] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1181, in init
+    run = wi.init()
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 780, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-04-11 13:30:57,972 WARNING MsgRouterThr:199237 [router.py:message_loop():77] message_loop has been closed

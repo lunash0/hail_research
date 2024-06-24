@@ -1,0 +1,42 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:05<00:00, 1821.64 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1799.22 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py", line 158, in <module>
+    val_indices = np.random.choice(num_images, num_val_images, replace=False)
+  File "mtrand.pyx", line 946, in numpy.random.mtrand.RandomState.choice
+  File "<__array_function__ internals>", line 179, in prod
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/numpy/core/fromnumeric.py", line 2924, in _prod_dispatcher
+    return (a, out)

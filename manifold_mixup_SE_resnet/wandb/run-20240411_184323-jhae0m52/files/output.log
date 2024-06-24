@@ -1,0 +1,47 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:05<00:00, 1871.75 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1899.05 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Epoch [1/50], Train Loss: 1.4956, Val Loss: 1.2668, Val Acc: 59.44%, Test Major Acc: 72.48%, Test Mod Acc: 39.24%, Test Rare Acc: 2.76%,
+Epoch [2/50], Train Loss: 1.0056, Val Loss: 1.2916, Val Acc: 62.33%, Test Major Acc: 86.57%, Test Mod Acc: 21.62%, Test Rare Acc: 2.57%,
+Epoch [3/50], Train Loss: 0.7729, Val Loss: 1.2724, Val Acc: 62.44%, Test Major Acc: 74.95%, Test Mod Acc: 34.67%, Test Rare Acc: 7.14%,
+Epoch [4/50], Train Loss: 0.5548, Val Loss: 1.1346, Val Acc: 63.78%, Test Major Acc: 76.38%, Test Mod Acc: 29.71%, Test Rare Acc: 22.29%,
+Epoch [5/50], Train Loss: 0.3174, Val Loss: 1.1426, Val Acc: 64.33%, Test Major Acc: 85.90%, Test Mod Acc: 23.05%, Test Rare Acc: 24.67%,
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py", line 245, in <module>
+    running_loss += loss.item() * images.size(0)  # Accumulate loss

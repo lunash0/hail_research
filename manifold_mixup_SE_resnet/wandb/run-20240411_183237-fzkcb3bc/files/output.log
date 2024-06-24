@@ -1,0 +1,80 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:05<00:00, 1881.82 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:01<00:00, 2031.77 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Epoch [1/50], Train Loss: 1.8086, Val Loss: 1.6929, Val Acc: 37.33%
+Epoch [2/50], Train Loss: 1.5497, Val Loss: 1.4335, Val Acc: 53.78%
+Epoch [3/50], Train Loss: 1.3592, Val Loss: 1.3173, Val Acc: 57.33%
+Epoch [4/50], Train Loss: 1.2383, Val Loss: 1.1807, Val Acc: 63.89%
+Epoch [5/50], Train Loss: 1.1098, Val Loss: 1.2886, Val Acc: 56.67%
+Epoch [6/50], Train Loss: 0.9936, Val Loss: 0.9823, Val Acc: 66.33%
+Epoch [7/50], Train Loss: 0.9007, Val Loss: 1.3353, Val Acc: 57.22%
+Epoch [8/50], Train Loss: 0.8187, Val Loss: 0.8880, Val Acc: 70.56%
+Epoch [9/50], Train Loss: 0.7683, Val Loss: 0.9890, Val Acc: 66.33%
+Epoch [10/50], Train Loss: 0.6621, Val Loss: 0.9329, Val Acc: 70.11%
+Epoch [11/50], Train Loss: 0.5895, Val Loss: 0.8962, Val Acc: 71.89%
+Epoch [12/50], Train Loss: 0.5230, Val Loss: 0.9679, Val Acc: 70.44%
+Epoch [13/50], Train Loss: 0.4746, Val Loss: 0.8400, Val Acc: 73.89%
+Epoch [14/50], Train Loss: 0.3875, Val Loss: 0.9053, Val Acc: 72.78%
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py", line 238, in <module>
+    for images, labels in train_loader:
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/download&check_dataset.py", line 147, in __getitem__
+    img = self.transform(img_)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 354, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 467, in resize
+    return F_pil.resize(img, size=output_size, interpolation=pil_interpolation)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/_functional_pil.py", line 250, in resize
+    return img.resize(tuple(size[::-1]), interpolation)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/PIL/Image.py", line 2200, in resize
+    return self._new(self.im.resize(size, resample, box))

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/tsne/tmp_tsne.py", line 8, in <module>
+    from train.train_manifold_mixed_resnet import val_loader
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_manifold_mixed_resnet.py", line 34, in <module>
+    split_name = 'full_size'

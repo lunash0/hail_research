@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_basic_resnet.py", line 38, in <module>
+    dataset = load_dataset(dataset_name, split_name, cache_dir=cache_dir)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/load.py", line 2556, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/load.py", line 2265, in load_dataset_builder
+    builder_instance: DatasetBuilder = builder_cls(
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/builder.py", line 414, in __init__
+    os.makedirs(self._cache_dir_root, exist_ok=True)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)

@@ -1,0 +1,44 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:04<00:00, 1914.59 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1903.52 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+Epoch [1/3], Train Acc: 30.58%, Train Loss: 1.9091, Val Acc: 36.89%, Val Loss: 1.7457, Test Major Acc: 47.14%, Test Mod Acc: 19.90%, Test Rare Acc: 0.00%,
+Epoch [2/3], Train Acc: 38.28%, Train Loss: 1.7116, Val Acc: 44.11%, Val Loss: 1.6258, Test Major Acc: 63.90%, Test Mod Acc: 14.00%, Test Rare Acc: 0.00%,
+Epoch [3/3], Train Acc: 44.22%, Train Loss: 1.5921, Val Acc: 47.67%, Val Loss: 1.5099, Test Major Acc: 60.95%, Test Mod Acc: 15.05%, Test Rare Acc: 0.00%,
+wandb: WARNING Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/tsne/tmp_tsne.py", line 46, in <module>
+    loaded_model.eval()
+AttributeError: 'collections.OrderedDict' object has no attribute 'eval'
+Finished Training

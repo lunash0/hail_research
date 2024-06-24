@@ -1,0 +1,100 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:05<00:00, 1891.89 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1914.65 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+Epoch [1/1000], Train Acc: 26.25%, Train Loss: 1.9423, Val Acc: 36.33%, Val Loss: 1.7523, Test Major Acc: 52.86%, Test Mod Acc: 7.33%, Test Rare Acc: 0.00%,
+Epoch [2/1000], Train Acc: 30.75%, Train Loss: 1.8221, Val Acc: 49.78%, Val Loss: 1.5574, Test Major Acc: 71.62%, Test Mod Acc: 15.71%, Test Rare Acc: 0.00%,
+Epoch [3/1000], Train Acc: 32.56%, Train Loss: 1.7711, Val Acc: 45.56%, Val Loss: 1.5978, Test Major Acc: 59.71%, Test Mod Acc: 23.81%, Test Rare Acc: 0.00%,
+Epoch [4/1000], Train Acc: 34.58%, Train Loss: 1.7571, Val Acc: 49.22%, Val Loss: 1.5048, Test Major Acc: 70.19%, Test Mod Acc: 16.19%, Test Rare Acc: 0.00%,
+Epoch [5/1000], Train Acc: 33.83%, Train Loss: 1.7303, Val Acc: 52.78%, Val Loss: 1.4075, Test Major Acc: 70.48%, Test Mod Acc: 21.14%, Test Rare Acc: 0.00%,
+Epoch [6/1000], Train Acc: 36.22%, Train Loss: 1.7020, Val Acc: 38.44%, Val Loss: 1.7299, Test Major Acc: 47.14%, Test Mod Acc: 23.90%, Test Rare Acc: 0.00%,
+Epoch [7/1000], Train Acc: 36.31%, Train Loss: 1.6830, Val Acc: 50.78%, Val Loss: 1.4054, Test Major Acc: 67.05%, Test Mod Acc: 23.43%, Test Rare Acc: 0.57%,
+Epoch [8/1000], Train Acc: 34.17%, Train Loss: 1.6537, Val Acc: 57.67%, Val Loss: 1.3156, Test Major Acc: 71.43%, Test Mod Acc: 34.86%, Test Rare Acc: 1.52%,
+Epoch [9/1000], Train Acc: 36.69%, Train Loss: 1.6343, Val Acc: 57.33%, Val Loss: 1.3219, Test Major Acc: 77.52%, Test Mod Acc: 21.14%, Test Rare Acc: 3.24%,
+Epoch [10/1000], Train Acc: 37.33%, Train Loss: 1.6066, Val Acc: 61.44%, Val Loss: 1.1964, Test Major Acc: 76.29%, Test Mod Acc: 35.71%, Test Rare Acc: 5.62%,
+Epoch [11/1000], Train Acc: 38.17%, Train Loss: 1.5705, Val Acc: 58.56%, Val Loss: 1.2230, Test Major Acc: 73.62%, Test Mod Acc: 39.62%, Test Rare Acc: 7.24%,
+Epoch [12/1000], Train Acc: 35.56%, Train Loss: 1.5780, Val Acc: 66.56%, Val Loss: 1.0831, Test Major Acc: 83.71%, Test Mod Acc: 40.29%, Test Rare Acc: 2.57%,
+Epoch [13/1000], Train Acc: 40.11%, Train Loss: 1.5333, Val Acc: 62.22%, Val Loss: 1.1479, Test Major Acc: 76.10%, Test Mod Acc: 39.24%, Test Rare Acc: 9.43%,
+Epoch [14/1000], Train Acc: 38.92%, Train Loss: 1.4934, Val Acc: 63.78%, Val Loss: 1.1318, Test Major Acc: 79.90%, Test Mod Acc: 33.43%, Test Rare Acc: 1.90%,
+Epoch [15/1000], Train Acc: 38.75%, Train Loss: 1.5362, Val Acc: 64.44%, Val Loss: 1.1078, Test Major Acc: 83.43%, Test Mod Acc: 33.90%, Test Rare Acc: 3.71%,
+Epoch [16/1000], Train Acc: 40.06%, Train Loss: 1.5097, Val Acc: 68.22%, Val Loss: 1.0483, Test Major Acc: 79.24%, Test Mod Acc: 42.86%, Test Rare Acc: 11.81%,
+Epoch [17/1000], Train Acc: 43.78%, Train Loss: 1.4955, Val Acc: 68.22%, Val Loss: 0.9894, Test Major Acc: 84.57%, Test Mod Acc: 30.10%, Test Rare Acc: 5.43%,
+Epoch [18/1000], Train Acc: 39.56%, Train Loss: 1.4738, Val Acc: 61.89%, Val Loss: 1.1868, Test Major Acc: 73.81%, Test Mod Acc: 38.57%, Test Rare Acc: 13.71%,
+Epoch [19/1000], Train Acc: 43.72%, Train Loss: 1.4689, Val Acc: 69.56%, Val Loss: 0.9376, Test Major Acc: 84.95%, Test Mod Acc: 31.81%, Test Rare Acc: 7.43%,
+Epoch [20/1000], Train Acc: 43.86%, Train Loss: 1.4813, Val Acc: 70.44%, Val Loss: 0.9519, Test Major Acc: 87.71%, Test Mod Acc: 31.71%, Test Rare Acc: 5.71%,
+Epoch [21/1000], Train Acc: 44.25%, Train Loss: 1.4598, Val Acc: 69.11%, Val Loss: 0.9408, Test Major Acc: 85.24%, Test Mod Acc: 41.24%, Test Rare Acc: 11.33%,
+Epoch [22/1000], Train Acc: 40.61%, Train Loss: 1.4585, Val Acc: 72.78%, Val Loss: 0.8701, Test Major Acc: 86.00%, Test Mod Acc: 44.19%, Test Rare Acc: 12.38%,
+Epoch [23/1000], Train Acc: 42.67%, Train Loss: 1.4402, Val Acc: 69.56%, Val Loss: 0.9482, Test Major Acc: 83.14%, Test Mod Acc: 36.10%, Test Rare Acc: 14.86%,
+Epoch [24/1000], Train Acc: 39.39%, Train Loss: 1.4302, Val Acc: 71.44%, Val Loss: 0.8914, Test Major Acc: 85.33%, Test Mod Acc: 43.33%, Test Rare Acc: 16.29%,
+Epoch [25/1000], Train Acc: 42.67%, Train Loss: 1.3866, Val Acc: 68.67%, Val Loss: 0.9551, Test Major Acc: 79.33%, Test Mod Acc: 46.86%, Test Rare Acc: 15.62%,
+Epoch [26/1000], Train Acc: 44.28%, Train Loss: 1.4352, Val Acc: 74.11%, Val Loss: 0.8700, Test Major Acc: 86.38%, Test Mod Acc: 47.62%, Test Rare Acc: 17.43%,
+Epoch [27/1000], Train Acc: 41.33%, Train Loss: 1.4007, Val Acc: 75.56%, Val Loss: 0.7660, Test Major Acc: 88.67%, Test Mod Acc: 45.90%, Test Rare Acc: 15.90%,
+Epoch [28/1000], Train Acc: 41.53%, Train Loss: 1.3680, Val Acc: 71.89%, Val Loss: 0.8476, Test Major Acc: 86.00%, Test Mod Acc: 49.14%, Test Rare Acc: 26.76%,
+Traceback (most recent call last):
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/IPython/core/interactiveshell.py", line 3526, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-1-846888dc407e>", line 1, in <module>
+    from train.train_manifold_mixed_resnet import train_loader
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydev_bundle/pydev_import_hook.py", line 21, in do_import
+    module = self._system_import(name, *args, **kwargs)
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_manifold_mixed_resnet.py", line 264, in <module>
+    for images, labels in train_loader:
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_manifold_mixed_resnet.py", line 158, in __getitem__
+    img = self.transform(img_)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/transforms.py", line 1276, in forward
+    img = F.adjust_contrast(img, contrast_factor)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/functional.py", line 892, in adjust_contrast
+    return F_pil.adjust_contrast(img, contrast_factor)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torchvision/transforms/_functional_pil.py", line 82, in adjust_contrast
+    enhancer = ImageEnhance.Contrast(img)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/PIL/ImageEnhance.py", line 68, in __init__
+    mean = int(ImageStat.Stat(image.convert("L")).mean[0] + 0.5)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/PIL/ImageStat.py", line 34, in __init__
+    self.h = image_or_list.histogram()
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/PIL/Image.py", line 1633, in histogram
+    return self.im.histogram()

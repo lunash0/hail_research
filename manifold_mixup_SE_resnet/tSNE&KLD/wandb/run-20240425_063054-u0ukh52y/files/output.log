@@ -1,0 +1,46 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:04<00:00, 1931.49 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:01<00:00, 2079.37 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+Epoch [1/5], Train Acc: 33.39%, Train Loss: 1.8423, Val Acc: 44.00%, Val Loss: 1.6226, Test Major Acc: 54.76%, Test Mod Acc: 32.57%, Test Rare Acc: 0.00%,
+Epoch [2/5], Train Acc: 41.61%, Train Loss: 1.6403, Val Acc: 44.00%, Val Loss: 1.7104, Test Major Acc: 56.10%, Test Mod Acc: 20.19%, Test Rare Acc: 1.33%,
+Epoch [3/5], Train Acc: 45.83%, Train Loss: 1.5709, Val Acc: 43.33%, Val Loss: 1.6659, Test Major Acc: 51.14%, Test Mod Acc: 27.43%, Test Rare Acc: 0.48%,
+Epoch [4/5], Train Acc: 49.33%, Train Loss: 1.5048, Val Acc: 61.56%, Val Loss: 1.1930, Test Major Acc: 79.90%, Test Mod Acc: 29.52%, Test Rare Acc: 0.19%,
+Epoch [5/5], Train Acc: 51.69%, Train Loss: 1.4255, Val Acc: 59.11%, Val Loss: 1.2283, Test Major Acc: 74.95%, Test Mod Acc: 36.57%, Test Rare Acc: 0.19%,
+Finished Training
+wandb: WARNING Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/tsne/tmp_tsne.py", line 44, in <module>
+    loaded_model.eval()
+AttributeError: 'collections.OrderedDict' object has no attribute 'eval'

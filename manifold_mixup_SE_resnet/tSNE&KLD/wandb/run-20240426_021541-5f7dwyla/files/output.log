@@ -1,0 +1,50 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:04<00:00, 2099.89 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1912.82 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+Epoch [1/3], Train Acc: 32.94%, Train Loss: 1.8855, Val Acc: 41.00%, Val Loss: 1.6686, Test Major Acc: 57.62%, Test Mod Acc: 11.05%, Test Rare Acc: 0.00%,
+Epoch [2/3], Train Acc: 39.83%, Train Loss: 1.7002, Val Acc: 46.11%, Val Loss: 1.5459, Test Major Acc: 60.86%, Test Mod Acc: 14.00%, Test Rare Acc: 0.00%,
+wandb: WARNING Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/tsne/tmp_tsne.py", line 52, in <module>
+    mlp_outputs_rst = extract_mlp_outputs(loaded_model, val_loader)
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/tsne/tmp_tsne.py", line 16, in extract_mlp_outputs
+    features, hiddens = model(images, flag_extract = True)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+TypeError: forward() got an unexpected keyword argument 'flag_extract'
+Epoch [3/3], Train Acc: 43.17%, Train Loss: 1.6139, Val Acc: 46.78%, Val Loss: 1.6436, Test Major Acc: 59.90%, Test Mod Acc: 22.48%, Test Rare Acc: 1.62%,
+Finished Training

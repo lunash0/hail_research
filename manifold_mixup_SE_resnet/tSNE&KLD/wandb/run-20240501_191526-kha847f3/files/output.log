@@ -1,0 +1,60 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:04<00:00, 2196.60 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:01<00:00, 2334.43 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/tSNE&KLD/tSNE_manifold_mixed_resnet.py", line 8, in <module>
+    from train.train_manifold_mixed_resnet import train_loader
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_manifold_mixed_resnet.py", line 90, in <module>
+    for train_data in train_dataset:
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/arrow_dataset.py", line 2389, in __iter__
+    formatted_output = format_table(
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 629, in format_table
+    return formatter(pa_table, query_type=query_type)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 396, in __call__
+    return self.format_row(pa_table)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 437, in format_row
+    row = self.python_features_decoder.decode_row(row)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 215, in decode_row
+    return self.features.decode_example(row) if self.features else row
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/features/features.py", line 1940, in decode_example
+    return {
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/features/features.py", line 1941, in <dictcomp>
+    column_name: decode_nested_example(feature, value, token_per_repo_id=token_per_repo_id)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/features/features.py", line 1341, in decode_nested_example
+    return schema.decode_example(obj, token_per_repo_id=token_per_repo_id)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/datasets/features/image.py", line 185, in decode_example
+    image.load()  # to avoid "Too many open files" errors
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/PIL/ImageFile.py", line 291, in load
+    n, err_code = decoder.decode(b)

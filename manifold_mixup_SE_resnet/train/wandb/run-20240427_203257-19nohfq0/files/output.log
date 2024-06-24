@@ -1,0 +1,42 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:04<00:00, 1970.96 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1777.55 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+Traceback (most recent call last):
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/pydevd.py", line 1534, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_manifold_mixed_resnet.py", line 271, in <module>
+    lam = mixup_data(alpha=args.mixup_alpha)

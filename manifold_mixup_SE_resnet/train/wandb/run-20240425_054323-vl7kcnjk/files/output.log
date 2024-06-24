@@ -1,0 +1,3 @@
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_manifold_mixed_resnet.py", line 32, in <module>
+    split_name = 'full_size'

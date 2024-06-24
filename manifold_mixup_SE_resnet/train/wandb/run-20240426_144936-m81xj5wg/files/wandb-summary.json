@@ -1,0 +1,1 @@
+{"Test Accuracy (Major Classes)": 91.04761904761905, "_timestamp": 1714166771.9654634, "Test Accuracy (Moderate Classes)": 57.333333333333336, "Test Accuracy (Rare Classes)": 49.904761904761905, "_runtime": 23795.930446386337, "_step": 499, "_wandb": {"runtime": 23795}}

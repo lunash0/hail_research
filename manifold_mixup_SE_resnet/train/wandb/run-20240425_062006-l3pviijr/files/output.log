@@ -1,0 +1,8 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:04<00:00, 1922.22 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1794.66 examples/s]
+Traceback (most recent call last):
+  File "/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_basic_resnet.py", line 43, in <module>
+    print(dataset)  # train: 9469, validation: 3925

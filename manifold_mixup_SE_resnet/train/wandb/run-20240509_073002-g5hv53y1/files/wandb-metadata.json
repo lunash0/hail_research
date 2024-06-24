@@ -1,0 +1,128 @@
+{
+    "os": "Linux-5.15.0-102-generic-x86_64-with-glibc2.35",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-05-09T07:30:03.476910",
+    "startedAt": "2024-05-09T07:30:02.392375",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_manifold_mixed_resnet.py",
+    "codePathLocal": "train_manifold_mixed_resnet.py",
+    "codePath": "train/train_manifold_mixed_resnet.py",
+    "git": {
+        "remote": "https://github.com/lunash0/hail_manifold-mixed_SE_resnet.git",
+        "commit": "c65c469742a6afcc260cbb55b5e6d94d83e91e73"
+    },
+    "email": "dongjaekim@dankook.ac.k",
+    "root": "/home/hail09/Documents/hail_moon/ImageNet10_experiments",
+    "host": "hail09",
+    "username": "hail09",
+    "executable": "/home/hail09/anaconda3/envs/venv_ImagenNet10/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1613.3329375,
+        "min": 1200.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1300.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2100.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1900.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2082.089,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 97.87200164794922,
+            "used": 85.45939636230469
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 62.64045333862305
+    }
+}

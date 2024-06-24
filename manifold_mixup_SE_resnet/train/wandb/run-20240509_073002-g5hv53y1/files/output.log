@@ -1,0 +1,74 @@
+
+
+Generating train split: 100%|██████████| 9469/9469 [00:05<00:00, 1827.75 examples/s]
+
+Generating validation split: 100%|██████████| 3925/3925 [00:02<00:00, 1841.08 examples/s]
+DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 9469
+    })
+    validation: Dataset({
+        features: ['image', 'label'],
+        num_rows: 3925
+    })
+})
+<train label> 2: 993
+<train label> 0: 963
+<train label> 3: 858
+<train label> 4: 941
+<train label> 9: 960
+<train label> 7: 931
+<train label> 1: 955
+<train label> 8: 951
+<train label> 6: 961
+<train label> 5: 956
+<test label> 2: 357
+<test label> 0: 387
+<test label> 3: 386
+<test label> 4: 409
+<test label> 9: 390
+<test label> 7: 419
+<test label> 1: 395
+<test label> 8: 399
+<test label> 6: 389
+<test label> 5: 394
+Error evaluating: thread_id: pid_367704_id_139846053019216
+frame_id: 667343376
+scope: FRAME
+attrs: self
+Traceback (most recent call last):
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_vars.py", line 315, in resolve_compound_variable_fields
+    return _typeName, _resolve_default_variable_fields(var, resolver, offset)
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_vars.py", line 265, in _resolve_default_variable_fields
+    return resolver.get_dictionary(VariableWithOffset(var, offset) if offset else var)
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_resolver.py", line 86, in get_dictionary
+    return self._getPyDictionary(var, names)
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_resolver.py", line 159, in _getPyDictionary
+    names = self.get_names(var)
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_resolver.py", line 147, in get_names
+    names = dir(var)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2509, in __dir__
+    parameters = list(self._parameters.keys())
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1688, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'SEBasicBlock' object has no attribute '_parameters'
+Error evaluating: thread_id: pid_367704_id_139846053019216
+frame_id: 667343376
+scope: FRAME
+attrs: self
+Traceback (most recent call last):
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_vars.py", line 315, in resolve_compound_variable_fields
+    return _typeName, _resolve_default_variable_fields(var, resolver, offset)
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_vars.py", line 265, in _resolve_default_variable_fields
+    return resolver.get_dictionary(VariableWithOffset(var, offset) if offset else var)
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_resolver.py", line 86, in get_dictionary
+    return self._getPyDictionary(var, names)
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_resolver.py", line 159, in _getPyDictionary
+    names = self.get_names(var)
+  File "/snap/pycharm-community/378/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_resolver.py", line 147, in get_names
+    names = dir(var)
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2509, in __dir__
+    parameters = list(self._parameters.keys())
+  File "/home/hail09/anaconda3/envs/venv_ImagenNet10/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1688, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")

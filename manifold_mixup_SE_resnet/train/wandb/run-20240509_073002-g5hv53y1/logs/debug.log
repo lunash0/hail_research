@@ -1,0 +1,28 @@
+2024-05-09 07:30:02,397 INFO    MainThread:367704 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-05-09 07:30:02,397 INFO    MainThread:367704 [wandb_setup.py:_flush():76] Configure stats pid to 367704
+2024-05-09 07:30:02,398 INFO    MainThread:367704 [wandb_setup.py:_flush():76] Loading settings from /home/hail09/.config/wandb/settings
+2024-05-09 07:30:02,398 INFO    MainThread:367704 [wandb_setup.py:_flush():76] Loading settings from /home/hail09/Documents/hail_moon/ImageNet10_experiments/train/wandb/settings
+2024-05-09 07:30:02,398 INFO    MainThread:367704 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-09 07:30:02,398 INFO    MainThread:367704 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-09 07:30:02,398 INFO    MainThread:367704 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train/train_manifold_mixed_resnet.py', 'program_abspath': '/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_manifold_mixed_resnet.py', 'program': '/home/hail09/Documents/hail_moon/ImageNet10_experiments/train/train_manifold_mixed_resnet.py'}
+2024-05-09 07:30:02,399 INFO    MainThread:367704 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-09 07:30:02,399 INFO    MainThread:367704 [wandb_init.py:_log_setup():521] Logging user logs to /home/hail09/Documents/hail_moon/ImageNet10_experiments/train/wandb/run-20240509_073002-g5hv53y1/logs/debug.log
+2024-05-09 07:30:02,399 INFO    MainThread:367704 [wandb_init.py:_log_setup():522] Logging internal logs to /home/hail09/Documents/hail_moon/ImageNet10_experiments/train/wandb/run-20240509_073002-g5hv53y1/logs/debug-internal.log
+2024-05-09 07:30:02,400 INFO    MainThread:367704 [wandb_init.py:init():561] calling init triggers
+2024-05-09 07:30:02,400 INFO    MainThread:367704 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'id': 'manifold_mixed_resnet', 'lr': 0.01}
+2024-05-09 07:30:02,400 INFO    MainThread:367704 [wandb_init.py:init():611] starting backend
+2024-05-09 07:30:02,400 INFO    MainThread:367704 [wandb_init.py:init():615] setting up manager
+2024-05-09 07:30:02,419 INFO    MainThread:367704 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-09 07:30:02,423 INFO    MainThread:367704 [wandb_init.py:init():623] backend started and connected
+2024-05-09 07:30:02,456 INFO    MainThread:367704 [wandb_init.py:init():715] updated telemetry
+2024-05-09 07:30:02,485 INFO    MainThread:367704 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-05-09 07:30:03,180 INFO    MainThread:367704 [wandb_run.py:_on_init():2357] communicating current version
+2024-05-09 07:30:03,339 INFO    MainThread:367704 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-05-09 07:30:03,340 INFO    MainThread:367704 [wandb_init.py:init():799] starting run threads in backend
+2024-05-09 07:30:10,070 INFO    MainThread:367704 [wandb_run.py:_console_start():2335] atexit reg
+2024-05-09 07:30:10,070 INFO    MainThread:367704 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-05-09 07:30:10,071 INFO    MainThread:367704 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-05-09 07:30:10,071 INFO    MainThread:367704 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-05-09 07:30:10,073 INFO    MainThread:367704 [wandb_init.py:init():842] run started, returning control to user process
